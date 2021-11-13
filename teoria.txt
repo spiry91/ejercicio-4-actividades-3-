@@ -1,0 +1,5 @@
+1. Introducció
+Els desarroyadores necessiten gestionar el codi dels projectes en els quals estan treballant. Ens trobem davant una realitat amb escenaris en els quals molts professionals incorporen codi al projecte, un codi viu, que pot canviar una vegada donat per finalitzat o bé per peticions dels clients, adaptació al mercat, correcció d'errors... Amb aquests canvis es van creant versions, però com podem gestionar-los per a treballar de la manera més òptima possible i emmagatzemant els canvis per si haguérem de recuperar alguna instrucció o dada? Ací és on entra en joc el control de versions.
+El control de versions és la capacitat de recordar tots els canvis que es realitzen tant en l'estructura de directoris com en el contingut dels arxius. Permetent les següents accions generalment:
+- Recuperar un document, una carpeta, o un projecte en un moment concret del seu desenvolupament.
+- Mantindre un cert control dels canvis que es realitzen sobre documents, arxius o projectes que comparteixen diverses persones o un equip de treball, per la qual cosa és útil quan es fa necessari saber qué canvis es fan, qui els fa i quan es realitzen.
