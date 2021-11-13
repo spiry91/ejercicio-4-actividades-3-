@@ -1,5 +1,16 @@
 1. Introducció
-Els desaroyadores necessiten gestionar el codi dels projectes en els quals estan treballant. Ens trobem davant una realitat amb escenaris en els quals molts professionals incorporen codi al projecte, un codi viu, que pot canviar una vegada donat per finalitzat o bé per peticions dels clients, adaptació al mercat, correcció d'errors... Amb aquests canvis es van creant versions, però com podem gestionar-los per a treballar de la manera més òptima possible i emmagatzemant els canvis per si haguérem de recuperar alguna instrucció o dada? Ací és on entra en joc el control de versions.
+Els desarroyadores necessiten gestionar el codi dels projectes en els quals estan treballant. Ens trobem davant una realitat amb escenaris en els quals molts professionals incorporen codi al projecte, un codi viu, que pot canviar una vegada donat per finalitzat o bé per peticions dels clients, adaptació al mercat, correcció d'errors... Amb aquests canvis es van creant versions, però com podem gestionar-los per a treballar de la manera més òptima possible i emmagatzemant els canvis per si haguérem de recuperar alguna instrucció o dada? Ací és on entra en joc el control de versions.
 El control de versions és la capacitat de recordar tots els canvis que es realitzen tant en l'estructura de directoris com en el contingut dels arxius. Permetent les següents accions generalment:
 - Recuperar un document, una carpeta, o un projecte en un moment concret del seu desenvolupament.
 - Mantindre un cert control dels canvis que es realitzen sobre documents, arxius o projectes que comparteixen diverses persones o un equip de treball, per la qual cosa és útil quan es fa necessari saber qué canvis es fan, qui els fa i quan es realitzen.
+2. Terminologia
+Existeixen una sèrie de termes que s'utilitzen i són comuns per a la majoria de les eines de control de versions
+- Repositori: Lloc on s'emmagatzemen totes les dades i els canvis.
+- Revisió o versió: Una revisió és una versió concreta de les dades emmagatzemades.
+- Tag: Quan es crea una versió concreta en un moment determinat del desenvolupament d'un projecte se li posa una etiqueta, de manera que es puga localitzar i recuperar en qualsevol moment.
+- Tronc (trunk): Línia principal de desenvolupament d'un projecte.
+- Rama o ramificar (branch): Les branques són còpies d'arxius , carpetes o projectes. Quan es crea una branca es crea una bifurcació del projecte i es creen dues línies de desenvolupament.
+- Checkout: Crear una còpia de treball del projecte, o d'arxius i carpetes del repositori en l'equip local. Per defecte s'obté l'última versió, encara que també es pot indicar una versió concreta.
+- commit o checkin: Es realitza commit quan es confirmen els canvis realitzats en local per a integrar-los al repositori.
+- merge: Una fusió consisteix a unir els canvis realitzats sobre un o diversos arxius en una única revisió.
+- Conflicte: Ocorre en situacions en la qual el sistema no és capaç de fusionar els canvis (per exemple, dos usuaris han canviat la mateixa línia en el mateix moment). Aquest usuari haurà dé resoldre el conflicte combinant els canvis o triant un d'ells.
